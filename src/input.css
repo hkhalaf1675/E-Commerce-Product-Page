@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer{
+    .nav-item{
+        @apply hover:text-orange-500
+    }
+}
